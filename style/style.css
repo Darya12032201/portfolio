@@ -72,7 +72,7 @@
     height: 387px;
     margin-top: 62px;
     margin-bottom: 79px;
-    background-image: url(https://avatarko.ru/img/kartinka/33/multfilm_lyagushka_32117.jpg);
+    background-image: url(../img/personal-photo.png);
     background-size: cover;
 }
 #about{
@@ -90,4 +90,69 @@
     line-height: 44px;
     text-align: center;
     color: #070707;
+}
+.about-text{
+    margin-top: 43px;
+    margin-bottom: 65px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 23px;
+    text-align: center;
+    color: #070707;
+}
+.text-paragraph{
+    margin-bottom: 48px;
+}
+.skills-heading{
+    margin-top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #070707;
+}
+.skills-text{
+    margin-top: 32px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #070707;
+}
+.skills-container{
+    display: flex;
+    margin-top: 121px;
+    margin-bottom: 112px;
+    justify-content: space-between;
+}
+.skills-card{
+    display: flex;
+    width: 18%;
+    flex-direction: column;
+    align-items: center;
+}
+.card-img{
+    width: 100%;
+    height: auto;
+    margin-bottom: 22px;
+}
+.card-text{
+    margin-bottom: 27px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #828282;
+}
+.card-rating{
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+}
+.rating-star{
+    width: 15%;
 }
