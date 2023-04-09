@@ -154,5 +154,100 @@
     justify-content: space-between;
 }
 .rating-star{
+    margin-bottom: 110px;
     width: 15%;
+}
+#portfolio{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: #F6F6F6;
+}
+.portfolio-heading{
+    margin-top: 78px;
+    margin-bottom: 80px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #070707;
+}
+.portfolio-pages{
+    width: 100%;
+    margin-bottom: 70px;
+}
+.pages-img{
+    width: 100%;
+    height: auto;
+}
+.pages-name{
+    margin-top: 70px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    text-decoration: underline;
+    color: #070707;
+}
+#contacts{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+}
+.contacts-heading{
+    margin-top: 64px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 44px;
+    text-align: center;
+    color: #070707;
+}
+.contacts-text{
+    width: 70%;
+    margin: 15px auto 0;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-align: center;
+    color: #070707;
+}
+.button{
+    display: block;
+    width: 30%;
+    margin: 61px auto 0;
+    padding: 8px 13px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 26px;
+    text-decoration: none;
+    text-align: center;
+    border-radius: 50px;
+    background-color: #070707;
+    color: #FFFFFF;
+}
+.contacts-container{
+    display: flex;
+    width: 100%;
+    margin-top: 64px;
+    justify-content: space-around;
+}
+.links-img{
+    width: auto;
+    height: 40px;
+}
+.contacts-description{
+    margin-top: 89px;
+    margin-bottom: 116px;
+    font-family: 'IBM Plex Sans', sans-serif;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 21px;
+    text-align: center;
+    color: #828282;
 }
