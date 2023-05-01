@@ -269,7 +269,7 @@
         line-height: 35px;
     }
 }
-@media (min-width: 481px) and (max-width: 768px) and (orientation: portrait) {
+@media (max-width: 768px) and (orientation: portrait) {
     .container{
         padding: 0 8%;
     }
@@ -348,5 +348,39 @@
         margin-bottom: 41px;
         font-size: 14px;
         line-height: 17px;
+    }
+    .portfolio-heading{
+        margin-top: 81px;
+        margin-bottom: 65px;
+        line-height: 42px;
+    } 
+    .pages-name{
+        margin-top: 35px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .contacts-heading{
+        margin-top: 82px;
+        line-height: 42px;
+    }
+    .contacts-text{
+        margin-top: 27px;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .button{
+        width: 80%;
+        margin: 40px auto 0;
+        padding: 12px ;
+        font-size: 18px;
+        line-height: 22px;
+    }
+    .contacts-container{
+        margin-top: 48px;
+    }
+    .contacts-description{
+        margin-top: 49px;
+        margin-bottom: 90px;
+        line-height: 22px;
     }
 }
